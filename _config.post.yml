@@ -172,38 +172,38 @@ sidebar:
     # Left sidebar configurations
     left:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: true
+        sticky: false
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
     # Profile widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: profile
-        # Author name
-        author: SeoYoonho
-        # Author title
-        author_title: Yoonho's blog
-        # Author's current location
-        location: Korea
-        # URL or path to the avatar image
-        avatar: 
-        # Whether show the rounded avatar image
-        avatar_rounded: false
-        # Email address for the Gravatar
-        gravatar: 
-        # URL or path for the follow button
-        follow_link: https://github.com/SeoYoonHo
-        # Links to be shown on the bottom of the profile widget
-        social_links:
-            Github:
-                icon: fab fa-github
-                url: https://github.com/SeoYoonHo
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: profile
+    #     # Author name
+    #     author: SeoYoonho
+    #     # Author title
+    #     author_title: Yoonho's blog
+    #     # Author's current location
+    #     location: Korea
+    #     # URL or path to the avatar image
+    #     avatar: 
+    #     # Whether show the rounded avatar image
+    #     avatar_rounded: false
+    #     # Email address for the Gravatar
+    #     gravatar: 
+    #     # URL or path for the follow button
+    #     follow_link: https://github.com/SeoYoonHo
+    #     # Links to be shown on the bottom of the profile widget
+    #     social_links:
+    #         Github:
+    #             icon: fab fa-github
+    #             url: https://github.com/SeoYoonHo
             # Facebook:
             #     icon: fab fa-facebook
             #     url: https://facebook.com
@@ -219,7 +219,7 @@ widgets:
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: toc
         # Whether to show the index of each heading
         index: true
@@ -228,33 +228,33 @@ widgets:
         # Maximum level of headings to show (1-6)
         depth: 3
     # Recommendation links widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: links
-        # Names and URLs of the sites
-        links:
-            Github: https://github.com/SeoYoonHo
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: links
+    #     # Names and URLs of the sites
+    #     links:
+    #         Github: https://github.com/SeoYoonHo
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: categories
     # Recent posts widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: recent_posts
     # Archives widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: archives
-    # Tags widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: tags
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: right
+    #     type: archives
+    # # Tags widget configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: tags
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
