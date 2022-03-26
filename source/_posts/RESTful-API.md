@@ -1,5 +1,5 @@
 ---
-title: RESTful API(1)
+title: RESTful API
 date: 2022-03-26 01:12:53
 tags:
   - CS지식
@@ -81,11 +81,17 @@ HTTP라는 존재하는 프로토콜을 사용하기 때문에 웹에서 사용�
 
 서버는 클라이언트로 실행 가능한 프로그램을 전달할 수 있어야 한다. 쉽게 Javascript를 생각하면 된다. 그러나 이 조건은 선택사항이며 필수적이지는 않다.
 
-### RESTful AIP
+### **RESTful AIP**
 
 RESTful API(REST API)란 위의 제약조건에 따르는 애플리케이션 프로그래밍 인터페이스를 뜻한다. 그러나 우리가 RESTful API라고 부르는 것들은 사실 REST하지 않은 경우가 대부분이다.
 특히 <u>self-descriptve messages와 hypermedia as the engine of application state 원칙을 지키는 것이 상당히 까다로운 편이기 때문에 이 두원칙을 지키지 못하는 경우가 많다.</u>
 
 물론 로이 필딩은 이런 API를 REST라 불러선 안된다고 주장하지만 이미 많은 개발자들과 기업들은 REST 원칙을 지키지 못한 API들을 RESTful API라고 부르고 있다.
 
-다음 챕터는 이런 제약조건들을 만족시키지는 못했지만 우리가 흔히들 RESTful API라 부르는 개념에 대해서 살펴보는 시간을 가지겠다.
+### **개인적인 생각**
+
+원칙적인 REST 아키텍처 스타일을 알고있는 많은 사람들이 현대에 많은 글들과 회사에서 단지 몇가지 URL 규칙과 HTTP 메소드가 필요했을 뿐인 많은 사람들이 REST란 용어를 납치했다고까지 표현한다. 사실 개인적으론 이러한 논쟁이 머리아프게만 느껴지고 무슨 의미가 있나 싶기는 하지만, 이런 논쟁들이 좀 더 견고하고 표준화된 RESTful API 개념을 정립하는데 도움이 되겠거니 생각한다.
+
+이런한 논쟁거리를 뒤로 하고 나는 결국 나만의 RESTful API를 정의 내렸다.
+_HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)를 명시하고, HTTP Method(POST,GET,PUT,DELETE)를 통해 해당 자원에 대한 CRUD Opertaion을 적용한것_
+논란이 끝나면 새로운 정의가 나올 수 있겠지만 일단은 이렇게 알고있는게 마음편하다.
