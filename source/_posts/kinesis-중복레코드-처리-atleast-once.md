@@ -5,6 +5,7 @@ tags:
   - AWS
   - Kinesis
   - 중복레코드 처리
+  - STIS
 categories:
   - [AWS, Kinesis]
 toc: true

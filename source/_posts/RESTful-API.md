@@ -2,10 +2,9 @@
 title: RESTful API
 date: 2022-03-26 01:12:53
 tags:
-  - CS지식
+  - CS
   - REful API
   - REST
-  - 면접 예상
 categories:
   - CS
   - RESTful API
@@ -13,8 +12,6 @@ toc: true
 ---
 
 ![restful_api](/post_images/restful_api.png)
-Restful API에 대한 이해를 위해서는 REST에 대한 이해가 선행되어야 한다.
-오늘은 REST 아키텍처에 대한 내용을 먼저 배우고 넘어가보자.
 
 <!-- more -->
 
