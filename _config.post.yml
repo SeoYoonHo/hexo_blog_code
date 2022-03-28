@@ -5,6 +5,7 @@ variant: default
 # variant: cyberpunk
 # Path or URL to the website's logo
 # logo: /img/logo.svgs
+#   text: By Beautifue
 # Page metadata configurations
 head:
     # URL or path to the website's icon
