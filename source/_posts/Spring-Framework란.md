@@ -1,14 +1,12 @@
 ---
 title: Spring Framework란?
 tags:
-  - Sping
+  - Spring
   - CS
 categories:
-  - - Spring
-    - Spring Framework
+  - [Spring, Spring Framework]
 toc: true
 date: 2022-04-19 11:28:14
-sitemap: true
 ---
 
 

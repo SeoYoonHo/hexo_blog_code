@@ -1,7 +1,7 @@
 ---
 title: Spring Batch
 tags:
-  - Sping
+  - Spring
   - Batch
   - Spring Batch
   - STIS
