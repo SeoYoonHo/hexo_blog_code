@@ -74,7 +74,7 @@ Spring에서의 핵심 개념인 의존성주입(Dependency Injection, DI)과 �
 
   위와 같이 CafeFactory라는 외부에서 객체를 주입해줌으로써 의존관계를 재설정할 수 있다. Spring에서 CafeFactory의 역할은 Application Context가 수행하고 있다.
 
-  그리고 위에서 설명했듯이 **객체를 사용하고 책임지는 역할이 사용자가 아닌 Spring Framework에 넘어가 있고 이러한 개념을 제어의 역전(Inversion of Control, IoC)**라고 한다.
+  그리고 위에서 설명했듯이 **객체를 사용하고 책임지는 역할이 사용자가 아닌 Spring Framework에 넘어가 있고 이러한 개념을 제어의 역전(Inversion of Control, IoC)이라고 한다.**
 
 ### **정리**
 Spring에서는 DI 컨테이너를 통해 서로 강하게 결합되어 있는 두 클래스를 분리하고, 두 객체간의 관계를 결정해줌으로써 결합도를 낮추고 유연성을 확보하고자 한다. Spring에서 이러한 객체들을 Bean이라 정의하고 있다. 또한 Spring에서는 이러한 Bean들을 성능을 위해 기본적으로 Sigleton으로 관리하고 있다.
