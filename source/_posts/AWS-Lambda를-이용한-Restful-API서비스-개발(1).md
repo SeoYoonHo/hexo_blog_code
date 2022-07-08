@@ -1,5 +1,5 @@
 ---
-title: AWS Lambda를 이용한 Restful API서비스 개발
+title: AWS Lambda를 이용한 Restful API서비스 개발(1)
 toc: true
 date: 2022-07-07 23:06:00
 tags:
