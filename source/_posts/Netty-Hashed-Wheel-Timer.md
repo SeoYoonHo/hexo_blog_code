@@ -61,9 +61,7 @@ TimingWheel 의 기본구조는 고정된 크기의 순환배열이다.
 <center><img src="/post_images/Netty/Timer/hashedWheelTimer.png"></center>
 
 ### **마치며**
-오늘은 POJO의 등장배경에 대해 알아보았다. 이 포스팅을 정리하며 EJB부터 Spring까지 Java 서버개발의 역사에 대해 전반적으로 알 수 있었다. 사실 EJB에 대해서 정확하게 알 수는 없지만 Spring, Pojo의 등장 배경에 대해 좀 더 잘 이해할 수 있는 시간이어서 의미있는 시간이었다.
-
-이전 포스팅에서도 언급했지만 개발자로 살아간다면, 자신이 사용하거나 사용할 기술들에 대하여 '왜 사용되어야 하는가?' 라는 의문은 계속 제기하면서 살아야 한다고 생각한다. 그런 의미에서 이번 POJO 포스팅은 좀 더 개발다운 사람이 되는 시간이었다.
+지금까지 Java의 타이머의 한계점과 극복하기 위한 TimingWheel의 개념에 대해 알아보았다. 현재 java.util.Timer로 수행되던 업무를 Netty의 HashsedWheelTimer로 변경하여 성능을 대폭 끌어올린 경험이 있기에 해당 기능을 알고있으면 더 좋을것이라 생각하여 소개하게 되었다.
 
 출처:
 - https://d2.naver.com/helloworld/267396
