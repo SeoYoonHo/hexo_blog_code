@@ -8,7 +8,6 @@ tags:
   - Garbage Collection
   - GC
 categories:
-  - CS
   - Java
   - Garbage Collection
 ---
