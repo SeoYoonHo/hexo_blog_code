@@ -22,6 +22,7 @@ Java & Spring, AWS 기반의 5년자 백엔드 개발자로 **일 평균 2억건
     - 온프레미스 시스템 AWS로 마이그레이션 지원
     - 실시간 모니터링 & 알람 시스템 구축(<u>{% post_link 모니터링-시스템-Prometheus-Grafana %}</u>)
     - 불필요한 아키텍쳐 개선으로 연 6천만원 이상 비용 절감
+    - 정기보고자료 자동화로 일 평균 30분 공수절감
   - 세종 셔클 (2022.08 ~ 2022.11)
     - AWS MSK와 Lambda를 이용한 아키텍처 설계
     - Serverless Framework를 이용한 Lambda 배포시스템 구축
