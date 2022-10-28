@@ -40,4 +40,5 @@ Java & Spring, AWS 기반의 5년자 백엔드 개발자로 **일 평균 2억건
 - Back-End : Java, Spring, Spring Batch, AWS(EC2, Lambda 등)
 - Database: MySQL, Oracle
 ---
+# Education
 2009.03~2017.07 광운대학교 수학과 & 컴퓨터소프트웨어학과(복수전공)
