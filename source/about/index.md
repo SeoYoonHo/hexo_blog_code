@@ -16,7 +16,28 @@ Java & Spring, AWS 기반의 5년자 백엔드 개발자로 **일 평균 2억건
 
 ---
 # Experience
-- LG CNS(2017.01 ~ 현재)
-  - STIS 시스템 운영&유지보수
-  - 모니터링 시스템 구축
+- LG CNS (2017.01 ~ 현재)
+  - STIS 시스템 운영&유지보수 (2017.01 ~ 현재)
+    - 택시 정보 수집시스템 안정적 운영
+    - 온프레미스 시스템 AWS로 마이그레이션 지원
+    - 실시간 모니터링 & 알람 시스템 구축(<u>{% post_link 모니터링-시스템-Prometheus-Grafana %}</u>)
+    - 불필요한 아키텍쳐 개선으로 연 6천만원 이상 비용 절감
+  - 세종 셔클 (2022.08 ~ 2022.11)
+    - AWS MSK와 Lambda를 이용한 아키텍처 설계
+    - Serverless Framework를 이용한 Lambda 배포시스템 구축
+- Side Project
+  - 설레짐 앱 프로젝트 (2020.12 ~ 현재)
+    - React Native를 이용한 안드로이드 개발 진행
+  - 해마 앱 프로젝트 (2020.05~2021.03)
+    - Lamdba를 이용한 api 개발
+    - Serverless Framework를 이용한 개발 & 배포시스템 구축
+    - Spring Batch를 통한 푸시시스템 구축
 
+---
+# Skill
+- Front-End: JavaScript, TypeScript, HTML/CSS
+- Mobile Application : React Native
+- Back-End : Java, Spring, Spring Batch, AWS(EC2, Lambda 등)
+- Database: MySQL, Oracle
+---
+2009.03~2017.07 광운대학교 수학과 & 컴퓨터소프트웨어학과(복수전공)
